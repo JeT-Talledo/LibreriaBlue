@@ -1,0 +1,71 @@
+#footer{
+    width: 100%;background-color: black;
+}
+.contfoo{
+    width: 100%;display: flex;justify-content: center;
+    flex-wrap: wrap;flex-direction: row;padding: 20px 0;
+}
+.seciones{
+    width: 320px;padding: 20px 0;
+}
+.titusec{
+    color: #fff;font-size: 40px;text-align: center;
+}
+.pprimersec{
+    color: #fff;font-size: 15px;width: 250px;display: block;margin: 10px auto;
+    text-align: justify;
+}
+.numfooter{
+    display: block;color: #fff;
+}
+.conttelfnum{
+    display: flex;justify-content: center;
+}
+.conttelfnum img{
+    width: 30px;
+}
+.numberfo{
+    font-size: 20px;padding: 0 10px;
+}
+.direcc{
+    font-size: 13px; text-align: center;padding: 15px 0;
+}
+
+.titudif{
+    color: #fff;text-align: center;font-size: 15px;
+}
+.ul{
+    width: 100%;padding: 10px 0;
+}
+.ul li{
+    list-style: none;text-align: center;
+}
+.catefoo{
+    color: white;font-size: 13px; text-decoration: none;
+}
+.catefoo:hover{
+    color: #005EFF;
+}
+
+.contimgpag{
+    padding: 15px 0;width: 160px;justify-content: space-around;display: flex;
+    margin: auto;
+}
+.contimgpag img{
+    width: 35px;
+}
+
+.contimgred{
+    padding: 15px 0;width: 160px;justify-content: space-around;display: flex;
+    margin: auto;
+}
+.contimgred img{
+    width: 35px;
+}
+
+.credito{
+    display: block;width: 100%;padding: 15px 0;
+}
+.pcredi{
+    text-align: center;color: #fff;font-size: 13px;
+}

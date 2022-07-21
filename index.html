@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Blue</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="icon" href="img/ico.png">
+
+    <!--Estilos-->
+    <link rel="stylesheet" href="css/estilosindex.css">
+    <link rel="stylesheet" href="css/estiloscabe.css">
+    <link rel="stylesheet" href="css/estilosfooter.css">
+
+    <!--whatsapp-->
+    <link rel="stylesheet" href="css/whats.css">
+    <link rel="stylesheet" href="css/whats2.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+    <div id="contenedor">
+        <!--HEADER-->
+        <header class="cabecera">
+            <div class="contnumero">
+                <img src="img/icons/telf.png" alt="#">
+                <h3 class="number">+51 942 239 648</h3>
+            </div>
+            <div class="contflexi">
+                <div class="contlogmen">
+                    <div class="contlog">
+                        <a href="index.html"><img src="img/logo.png" alt="#"></a>
+                    </div>
+                    <div class="contmen">
+                        <img id="mostrar" src="img/icons/menu.png" alt="#" onclick="mostrarnav();">
+                        <img id="cerrar" src="img/icons/cerrar.png" alt="#" onclick="cerrarnav();">
+                    </div>
+                </div>
+                <div class="menunav" id="menunav" onmouseout="quitarcate();">
+                    <div class="nav">
+                        <div class="listnav">
+                            <a class="enlacenav select" href="index.html">Inicio</a>
+                        </div>
+                        <div class="listnav">
+                            <a class="enlacenav" id="cate" href="#" onmouseover="moscate();">Categorías</a>
+                            <div id="contcatenav" class="contcatenav" onmouseover="moscate();">
+                                <a class="enlcate" href="">Útiles Escolares</a>
+                                <a class="enlcate" href="">Manualidades</a>
+                                <a class="enlcate" href="">Papelería</a>
+                                <a class="enlcate" href="">Arte y Pintura</a>
+                                <a class="enlcate" href="">Mochilas y Loncheras</a>
+                                <a class="enlcate" href="">Lectura</a>
+                                <a class="enlcate" href="">Jueguetería</a>
+                            </div>
+                        </div>
+                        <div class="listnav">
+                            <a class="enlacenav" href="#">Nosotros</a>
+                        </div>
+                        <div class="listnav">
+                            <a class="enlacenav" href="#">Contáctanos</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!--CUERPO DE LA PAGINA -->
+        <div class="container-slider" data-aos="zoom-out-up">
+            <div class="slider" id="slider">
+                <div class="slider__section">
+                    <img src="img/baner/img1.jpeg" alt="melissa-banner1" class="slider__img">
+                </div>
+                <div class="slider__section">
+                    <img src="img/baner/img2.jpg" alt="melissa-banner2" class="slider__img">
+                </div>
+                <div class="slider__section">
+                    <img src="img/baner/img3.jpg" alt="melissa-banner3" class="slider__img">
+                </div>
+                <div class="slider__section">
+                    <img src="img/baner/img4.jpg" alt="melissa-banner4" class="slider__img">
+                </div>
+            </div>
+            <div class="slider__btn slider__btn--right" id="btn-right">
+                <img src="img/icons/right.png" alt="#">
+            </div>
+            <div class="slider__btn slider__btn--left" id="btn-left">
+                <img src="img/icons/left.png" alt="#">
+            </div>
+        </div>
+
+        <div class="contcategoria">
+            <h2 class="subtitu">Categorías de Productos</h2>
+            <div class="contenidocate">
+                <a href="" class="linkcate">
+                    <div class="galerycate">
+                        <div class="contimgcate">
+                            <img src="img/categorias/prueba.png" alt="" class="imgcate">
+                        </div>
+                        <div class="contnomcate">
+                            <p>ÚTILES ESCOLARES</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="" class="linkcate">
+                    <div class="galerycate">
+                        <div class="contimgcate">
+                            <img src="img/categorias/prueba.png" alt="" class="imgcate">
+                        </div>
+                        <div class="contnomcate">
+                            <p>MANUALIDADES</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="" class="linkcate">
+                    <div class="galerycate">
+                        <div class="contimgcate">
+                            <img src="img/categorias/prueba.png" alt="" class="imgcate">
+                        </div>
+                        <div class="contnomcate">
+                            <p>PAPELERÍA</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="" class="linkcate">
+                    <div class="galerycate">
+                        <div class="contimgcate">
+                            <img src="img/categorias/prueba.png" alt="" class="imgcate">
+                        </div>
+                        <div class="contnomcate">
+                            <p>ARTE Y PINTURA</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="" class="linkcate">
+                    <div class="galerycate">
+                        <div class="contimgcate">
+                            <img src="img/categorias/prueba.png" alt="" class="imgcate">
+                        </div>
+                        <div class="contnomcate">
+                            <p>MOCHILAS Y LONCHERAS</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="" class="linkcate">
+                    <div class="galerycate">
+                        <div class="contimgcate">
+                            <img src="img/categorias/prueba.png" alt="" class="imgcate">
+                        </div>
+                        <div class="contnomcate">
+                            <p>LECTURA</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="" class="linkcate">
+                    <div class="galerycate">
+                        <div class="contimgcate">
+                            <img src="img/categorias/prueba.png" alt="" class="imgcate">
+                        </div>
+                        <div class="contnomcate">
+                            <p>JUGUETERÍA</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="contrecomendados">
+            <h2 class="subtitu">Recomendados para Ti</h2>
+            <div class="contenidorecomen">
+                <div class="galeryprod" onmouseover="verprod1();" onmouseout="noverprod1();" id="galeryprod">
+                    <div class="verprod" id="verprod1">
+                        <a href="#modalprod1" class="enlaceflexbox">
+                            <div class="contverprod">
+                                <img src="img/icons/ver.png" alt="#">
+                                <p>Ver Producto</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="contimgprod">
+                        <img src="img/recomen/prueba2.jpg" alt="#" class="imgprod">
+                    </div>
+                    <div class="contdescriprod">
+                        <p class="nomcateprod">Papelería</p>
+                        <p class="nomprod">CATÁLOGO A4 FLEX</p>
+                        <p class="preprod">S/ 20.00</p>
+                    </div>
+                </div>
+                <div class="modalprod" id="modalprod1">
+                    <div class="modal_container">
+                        <div class="cerrvent">
+                            <a href="#galeryprod"><img class="cerrarprod" src="img/icons/cerrarprod.png" alt="#"></a>
+                        </div>
+                        <div class="contprodcart">
+                            <div class="contcerrmodal">
+                                <img class="small" src="img/recomen/prueba2.jpg" id="img_01">
+                            </div>
+                            <div class="contdescrimodal">
+                                <h1>Nombre Producto</h1>
+                                <p class="percioprod">S/ Precio</p>
+                                <ul class="contdescri">
+                                    <li>descripción</li>
+                                    <li>
+                                        <p class="negr">• Marca: </p> marca
+                                    </li>
+                                    <li>
+                                        <p class="negr">• Categoría: </p> categoría
+                                    </li>
+                                    <li>
+                                        <p class="negr">• Código: </p> codigo
+                                    </li>
+                                </ul>
+                                <div class="stokk">
+                                    <p>Cantidad: </p>
+                                    <div class="numerr">20</div>
+                                </div>
+                                <div class="redesocit">
+                                    <a href="">Cotizar Producto</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--********************************************************************-->
+                <div class="galeryprod" onmouseover="verprod2();" onmouseout="noverprod2();">
+                    <div class="verprod" id="verprod2">
+                        <a href="" class="enlaceflexbox">
+                            <div class="contverprod">
+                                <img src="img/icons/ver.png" alt="#">
+                                <p>Ver Producto</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="contimgprod">
+                        <img src="img/recomen/prueba2.jpg" alt="#" class="imgprod">
+                    </div>
+                    <div class="contdescriprod">
+                        <p class="nomcateprod">Papelería</p>
+                        <p class="nomprod">CATÁLOGO A4 FLEX</p>
+                        <p class="preprod">S/ 20.00</p>
+                    </div>
+                </div>
+                <div class="galeryprod" onmouseover="verprod3();" onmouseout="noverprod3();">
+                    <div class="verprod" id="verprod3">
+                        <a href="" class="enlaceflexbox">
+                            <div class="contverprod">
+                                <img src="img/icons/ver.png" alt="#">
+                                <p>Ver Producto</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="contimgprod">
+                        <img src="img/recomen/prueba2.jpg" alt="#" class="imgprod">
+                    </div>
+                    <div class="contdescriprod">
+                        <p class="nomcateprod">Papelería</p>
+                        <p class="nomprod">CATÁLOGO A4 FLEX</p>
+                        <p class="preprod">S/ 20.00</p>
+                    </div>
+                </div>
+                <div class="galeryprod" onmouseover="verprod4();" onmouseout="noverprod4();">
+                    <div class="verprod" id="verprod4">
+                        <a href="" class="enlaceflexbox">
+                            <div class="contverprod">
+                                <img src="img/icons/ver.png" alt="#">
+                                <p>Ver Producto</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="contimgprod">
+                        <img src="img/recomen/prueba2.jpg" alt="#" class="imgprod">
+                    </div>
+                    <div class="contdescriprod">
+                        <p class="nomcateprod">Papelería</p>
+                        <p class="nomprod">CATÁLOGO A4 FLEX</p>
+                        <p class="preprod">S/ 20.00</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--FOOTER-->
+        <footer id="footer">
+            <div class="contfoo">
+                <div class="seciones">
+                    <h1 class="titusec">BLUE®</h1>
+                    <p class="pprimersec">Somos una pequeña empresa dedicada al comercio de útiles escolares, papelería y todo lo referente a una librería común.</p>
+                    <div class="numfooter">
+                        <div class="conttelfnum">
+                            <img src="img/icons/telftipico.png" alt="#">
+                            <h2 class="numberfo">(+51) 942 239 648</h2>
+                        </div>
+                        <p class="direcc">Mz Q Lt 5 San Francisco de Asis, Ancón - Lima</p>
+                    </div>
+                </div>
+                <div class="seciones">
+                    <h3 class="titudif">CATEGORÍAS</h3>
+                    <ul class="ul">
+                        <li><a href="" class="catefoo">Útiles Escolares</a></li>
+                        <li><a href="" class="catefoo">Manualidades</a></li>
+                        <li><a href="" class="catefoo">Papelería</a></li>
+                        <li><a href="" class="catefoo">Arte y Pintura</a></li>
+                        <li><a href="" class="catefoo">Mochilas y Loncheras</a></li>
+                        <li><a href="" class="catefoo">Lectura</a></li>
+                        <li><a href="" class="catefoo">Jueguetería</a></li>
+                    </ul>
+                </div>
+                <div class="seciones">
+                    <h3 class="titudif">MEDIOS DE PAGO</h3>
+                    <div class="contimgpag">
+                        <img src="img/pago/bcp.png" alt="#">
+                        <img src="img/pago/yape.png" alt="#">
+                        <img src="img/pago/scotiabank.png" alt="#">
+                    </div>
+                </div>
+                <div class="seciones">
+                    <h3 class="titudif">REDES SOCIALES</h3>
+                    <div class="contimgred">
+                        <a href="#"><img src="img/redes/facebook.png" alt="#"></a>
+                        <a href="#"><img src="img/redes/Instagram.png" alt="#"></a>
+                        <a href="#"><img src="img/redes/WhatsApp.png" alt="#"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="credito">
+                <p class="pcredi">Copyright © 2022 JetTalledo</p>
+            </div>
+        </footer>
+    </div>
+
+    <!-- para el whatsapp -->
+    <div class="nav-bottom">
+        <div class="popup-whatsapp fadeIn">
+            <div class="content-whatsapp -top"><button type="button" class="closePopup">
+                    <i class="material-icons icon-font-color">close</i>
+                </button>
+                <p> <img src="img/icons/bot.png" width="50"> ¿Cómo podemos ayudarle? </p>
+            </div>
+            <div class="content-whatsapp -bottom">
+                <input class="whats-input" id="whats-in" type="text" Placeholder="Enviar mensaje..." />
+                <button class="send-msPopup" id="send-btn" type="button">
+                    <i class="material-icons icon-font-color--black">send</i>
+                </button>
+            </div>
+        </div>
+        <button type="button" id="whats-openPopup" class="whatsapp-button">
+            <div class="float">
+                <i class="fa fa-whatsapp my-float"></i>
+            </div>
+        </button>
+        <div class="circle-anime"></div>
+    </div>
+</body>
+<script src="js/codigoindex.js"></script>
+<script src="js/script2.js"></script>
+<script src="js/carruselbaner.js"></script>
+
+</html>
