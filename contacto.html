@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contáctanos</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="icon" href="img/ico.png">
+
+    <!--Estilos-->
+    <link rel="stylesheet" href="css/estiloscontacto.css">
+    <link rel="stylesheet" href="css/estiloscabe.css">
+    <link rel="stylesheet" href="css/estilosfooter.css">
+
+    <!--whatsapp-->
+    <link rel="stylesheet" href="css/whats.css">
+    <link rel="stylesheet" href="css/whats2.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+    <div id="contenedor">
+        <!--HEADER-->
+        <header class="cabecera">
+            <div class="contnumero">
+                <img src="img/icons/telf.png" alt="#">
+                <h3 class="number">+51 942 239 648</h3>
+            </div>
+            <div class="contflexi">
+                <div class="contlogmen">
+                    <div class="contlog">
+                        <a href="index.html"><img src="img/logo.png" alt="#"></a>
+                    </div>
+                    <div class="contmen">
+                        <img id="mostrar" src="img/icons/menu.png" alt="#" onclick="mostrarnav();">
+                        <img id="cerrar" src="img/icons/cerrar.png" alt="#" onclick="cerrarnav();">
+                    </div>
+                </div>
+                <div class="menunav" id="menunav" onmouseout="quitarcate();">
+                    <div class="nav">
+                        <div class="listnav">
+                            <a class="enlacenav" href="index.html">Inicio</a>
+                        </div>
+                        <div class="listnav">
+                            <a class="enlacenav" id="cate" href="#" onmouseover="moscate();">Categorías</a>
+                            <div id="contcatenav" class="contcatenav" onmouseover="moscate();">
+                                <a class="enlcate" href="">Útiles Escolares</a>
+                                <a class="enlcate" href="">Manualidades</a>
+                                <a class="enlcate" href="">Papelería</a>
+                                <a class="enlcate" href="">Arte y Pintura</a>
+                                <a class="enlcate" href="">Mochilas y Loncheras</a>
+                                <a class="enlcate" href="">Lectura</a>
+                                <a class="enlcate" href="">Jueguetería</a>
+                            </div>
+                        </div>
+                        <div class="listnav">
+                            <a class="enlacenav" href="#">Nosotros</a>
+                        </div>
+                        <div class="listnav">
+                            <a class="enlacenav select" href="contacto.html">Contáctanos</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!--CUERPO DE LA PAGINA-->
+        <div class="contencontact">
+            <div class="conttitucont">
+                <h2>Contácto</h2>
+            </div>
+            <div class="contformmap">
+                <div class="contform">
+                    <p class="estaes">¡Esta es nuestra información de contacto!</p>
+                    <div class="continfoform">
+                        <div class="conticoinfo">
+                            <img src="img/icons/emailform.png" alt="#">
+                            <p class="parfemform">comercial@importacionesalalau.com</p>
+                        </div>
+                        <div class="conticoinfo">
+                            <img src="img/icons/telfform.png" alt="#">
+                            <p class="parfemform">+51 981 316 586</p>
+                        </div>
+                        <div class="conticoinfo">
+                            <img src="img/icons/ubiform.png" alt="#">
+                            <p class="parfemform">San Luis - Lima - Perú</p>
+                        </div>
+                    </div>
+                    <div class="conthoraten">
+                        <p class="tituhora">Nuestros horarios de atención</p>
+                        <p class="parrhora">Lunes a Viernes de 07:30 am a 5:45 pm
+                            Sábados y Domingo no hay atención</p>
+                    </div>
+                </div>
+                <div class="contmap">
+                    <p class="estasinter">¿Estas interesado en saber mucho más de nuestros productos, promociones y liquidaciones?</p>
+                    <p class="sepondraen">Nuestro equipo se pondrá en contacto contigo en la brevedad posible.</p>
+                    <div class="contformulario">
+                        <form action="">
+                            <div class="contnomape">
+                                <input type="text" id="nombre">
+                                <input type="text" id="apellido">
+                            </div>
+                            <input type="text" id="email">
+                            <div class="contnomape">
+                                <input type="text" id="Telefono">
+                                <input type="text" id="dni">
+                            </div>
+                            <textarea name="" id="textarea" cols="30" rows="10">
+
+                            </textarea>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!--FOOTER-->
+        <footer id="footer">
+            <div class="contfoo">
+                <div class="seciones">
+                    <h1 class="titusec">BLUE®</h1>
+                    <p class="pprimersec">Somos una pequeña empresa dedicada al comercio de útiles escolares, papelería y todo lo referente a una librería común.</p>
+                    <div class="numfooter">
+                        <div class="conttelfnum">
+                            <img src="img/icons/telftipico.png" alt="#">
+                            <h2 class="numberfo">(+51) 942 239 648</h2>
+                        </div>
+                        <p class="direcc">Mz Q Lt 5 San Francisco de Asis, Ancón - Lima</p>
+                    </div>
+                </div>
+                <div class="seciones">
+                    <h3 class="titudif">CATEGORÍAS</h3>
+                    <ul class="ul">
+                        <li><a href="" class="catefoo">Útiles Escolares</a></li>
+                        <li><a href="" class="catefoo">Manualidades</a></li>
+                        <li><a href="" class="catefoo">Papelería</a></li>
+                        <li><a href="" class="catefoo">Arte y Pintura</a></li>
+                        <li><a href="" class="catefoo">Mochilas y Loncheras</a></li>
+                        <li><a href="" class="catefoo">Lectura</a></li>
+                        <li><a href="" class="catefoo">Jueguetería</a></li>
+                    </ul>
+                </div>
+                <div class="seciones">
+                    <h3 class="titudif">MEDIOS DE PAGO</h3>
+                    <div class="contimgpag">
+                        <img src="img/pago/bcp.png" alt="#">
+                        <img src="img/pago/yape.png" alt="#">
+                        <img src="img/pago/scotiabank.png" alt="#">
+                    </div>
+                </div>
+                <div class="seciones">
+                    <h3 class="titudif">REDES SOCIALES</h3>
+                    <div class="contimgred">
+                        <a href="#"><img src="img/redes/facebook.png" alt="#"></a>
+                        <a href="#"><img src="img/redes/Instagram.png" alt="#"></a>
+                        <a href="#"><img src="img/redes/WhatsApp.png" alt="#"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="credito">
+                <p class="pcredi">Copyright © 2022 JetTalledo</p>
+            </div>
+        </footer>
+    </div>
+    <!-- para el whatsapp -->
+    <div class="nav-bottom">
+        <div class="popup-whatsapp fadeIn">
+            <div class="content-whatsapp -top"><button type="button" class="closePopup">
+                    <i class="material-icons icon-font-color">close</i>
+                </button>
+                <p> <img src="img/icons/bot.png" width="50"> ¿Cómo podemos ayudarle? </p>
+            </div>
+            <div class="content-whatsapp -bottom">
+                <input class="whats-input" id="whats-in" type="text" Placeholder="Enviar mensaje..." />
+                <button class="send-msPopup" id="send-btn" type="button">
+                    <i class="material-icons icon-font-color--black">send</i>
+                </button>
+            </div>
+        </div>
+        <button type="button" id="whats-openPopup" class="whatsapp-button">
+            <div class="float">
+                <i class="fa fa-whatsapp my-float"></i>
+            </div>
+        </button>
+        <div class="circle-anime"></div>
+    </div>
+</body>
+<script src="js/codigoindex.js"></script>
+<script src="js/script2.js"></script>
+
+</html>
