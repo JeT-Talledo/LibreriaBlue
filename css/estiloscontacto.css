@@ -13,3 +13,118 @@ body{
 #contenedor{
     margin: 0;width: 100%;font-family: 'Poppins', sans-serif;
 }
+
+/**********************/
+
+.contencontact{
+    width: 100%;
+}
+.conttitucont{
+    width: 80%;margin: auto;border-bottom: 5px solid #b1b1b1;
+}
+.conttitucont h2{
+    font-size: 30px;padding: 10px 0;color: #005EFF;
+}
+.contformmap{
+    width: 100%;margin: 30px auto;display: flex; justify-content: center;
+    flex-wrap: wrap;flex-direction: row;
+}
+.contform{
+    width: 80%;margin: auto;max-width: 400px;
+}
+.estaes{
+    color: #005EFF; font-size: 18px;font-weight: bold;padding: 10px 0;
+}
+.continfoform{
+    width: 100%;padding: 0  0 10px 0;
+}
+.conticoinfo{
+    width: 100%; display: flex;padding: 2px 0;
+}
+.conticoinfo img{
+    width: 20px;height: 20px;
+}
+.parfemform{
+    font-size: 15px;margin-left: 10px;
+}
+.conthoraten{
+    width: 100%;
+}
+.tituhora{
+    color: #005EFF; font-size: 18px;font-weight: bold;padding: 10px 0;
+}
+.parrhora{
+    font-size: 15px;padding: 0  0 10px 0;
+}
+.estasinter{
+    color: #005EFF; font-size: 18px;font-weight: bold;padding: 10px 0;
+}
+.sepondraen{
+    font-size: 13px;padding: 0  0 10px 0;
+}
+.contformulario{
+    width: 100%;padding: 10px 0;max-width: 400px;
+}
+form{
+    width: 100%;
+}
+#nombre, #apellido, #email, #Telefono, #dni{
+    width: 92%;padding: 10px 4%;font-size: 15px;outline: none;margin-bottom: 15px;
+    border-radius: 5px;border: 1px solid #005EFF;color: #005EFF;
+}
+.textarea{
+    width: 92%;display: block;padding: 10px 4%;font-size: 15px;resize: none;outline: none;
+    border-radius: 5px;border: 1px solid #005EFF;color: #005EFF;margin-bottom: 20px;
+}
+.submit{
+    color: #fff; background-color: #005EFF; border: none; outline: none;border-radius: 10px;
+    padding: 15px;font-size: 15px;width: 100%;margin: auto;display: block;cursor: pointer;transition: all 0.4s;
+}
+.submit:hover{
+    background-color: #004ed4;
+}
+
+.contmap{
+    width: 100%;padding: 50px 0;
+}
+.mapa{
+    width: 100%;
+}
+.mapa iframe{
+    width: 100%;height: 400px;
+}
+
+
+/**********responsive************/
+@media(min-width: 600px){
+    .contnomape, .contnomape{
+    display: flex; justify-content: space-between;
+}
+    #nombre, #apellido, #Telefono, #dni{
+    width: 41%;padding: 10px 4%;
+}
+}
+
+@media(min-width: 769px){
+    .contmap{
+    width: 70%;padding: 50px 0;margin: auto;
+}
+}
+
+@media(min-width: 1024px){
+    .contformmap{
+    width: 80%;margin-bottom: 80px;
+}
+    .contform{
+    width: 50%;max-width: 400px;
+}
+    .contmap{
+    width: 50%;padding: 0;
+}
+    .mapa{
+    width: 90%;margin: 0 auto;display: flex;
+}
+    .mapa iframe{
+    height: 600px;
+}
+}

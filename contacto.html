@@ -68,7 +68,7 @@
         <!--CUERPO DE LA PAGINA-->
         <div class="contencontact">
             <div class="conttitucont">
-                <h2>Contácto</h2>
+                <h2>Contacto</h2>
             </div>
             <div class="contformmap">
                 <div class="contform">
@@ -76,7 +76,7 @@
                     <div class="continfoform">
                         <div class="conticoinfo">
                             <img src="img/icons/emailform.png" alt="#">
-                            <p class="parfemform">comercial@importacionesalalau.com</p>
+                            <p class="parfemform">libreria_blue72@gmail.com</p>
                         </div>
                         <div class="conticoinfo">
                             <img src="img/icons/telfform.png" alt="#">
@@ -84,7 +84,7 @@
                         </div>
                         <div class="conticoinfo">
                             <img src="img/icons/ubiform.png" alt="#">
-                            <p class="parfemform">San Luis - Lima - Perú</p>
+                            <p class="parfemform">Ancón - Lima - Perú</p>
                         </div>
                     </div>
                     <div class="conthoraten">
@@ -92,25 +92,30 @@
                         <p class="parrhora">Lunes a Viernes de 07:30 am a 5:45 pm
                             Sábados y Domingo no hay atención</p>
                     </div>
-                </div>
-                <div class="contmap">
                     <p class="estasinter">¿Estas interesado en saber mucho más de nuestros productos, promociones y liquidaciones?</p>
                     <p class="sepondraen">Nuestro equipo se pondrá en contacto contigo en la brevedad posible.</p>
                     <div class="contformulario">
-                        <form action="">
+                        <form name="form-contacto" method="post" netlify>
                             <div class="contnomape">
-                                <input type="text" id="nombre">
-                                <input type="text" id="apellido">
+                                <input type="text" id="nombre" required name="nombre" placeholder="Nombre*">
+                                <input type="text" id="apellido" required name="apellido" placeholder="Apellido*">
                             </div>
-                            <input type="text" id="email">
+                            <input type="email" id="email" required placeholder="Correo*" name="Correo">
                             <div class="contnomape">
-                                <input type="text" id="Telefono">
-                                <input type="text" id="dni">
+                                <input type="text" id="Telefono" required placeholder="Teléfono*" name="telefono">
+                                <input type="text" id="dni" required placeholder="DNI" name="dni">
                             </div>
-                            <textarea name="" id="textarea" cols="30" rows="10">
+                            <textarea class="textarea" name="mensaje" id="textarea" rows="10" cols="50" placeholder="Describe tu duda, sugerencia y/o comentario*"></textarea>
+                            <input type="submit" name="" placeholder="Enviar" class="submit">
 
-                            </textarea>
+                            <!--<input type="hidden" name="_next" value="http://127.0.0.1:49746/contacto.html">
+                            <input type="hidden" name="_captcha" value="false">-->
                         </form>
+                    </div>
+                </div>
+                <div class="contmap">
+                    <div class="mapa">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3905.732562513007!2d-77.16687883510589!3d-11.783871241642737!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105d563f3e0326d%3A0xc7023aaf6ad4ed73!2sA.h%20San%20Francisco%20de%20Asis%2C%2015123!5e0!3m2!1ses-419!2spe!4v1658513144630!5m2!1ses-419!2spe" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
             </div>
