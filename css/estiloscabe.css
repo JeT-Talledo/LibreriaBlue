@@ -100,7 +100,10 @@
     }
 
     .contcatenav{
-        width: 280px;margin: 15px auto 0 auto; height: 0;position: absolute;z-index: 1;
+        width: 280px;margin: 15px auto 0 auto; height: 0;position: absolute;z-index: 1;text-align: left;
+    }
+    .enlcate{
+        padding: 5px 20px;
     }
 }
 
