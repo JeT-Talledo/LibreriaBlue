@@ -122,7 +122,7 @@ form{
     width: 50%;padding: 0;
 }
     .mapa{
-    width: 90%;margin: 0 auto;display: flex;
+    width: 90%;margin: 0 auto;display: flex;box-shadow: -1px 7px 14px 0px rgba(0,0,0,0.75);
 }
     .mapa iframe{
     height: 600px;
