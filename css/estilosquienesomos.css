@@ -22,7 +22,7 @@ body{
     text-align: center;color: #005EFF;font-size: 30px;
 }
 .contparrvid{
-    width: 100%;padding: 15px 0;display: flex; justify-content: center;
+    width: 100%;padding: 15px 0;display: flex; justify-content: space-around;
     flex-wrap: wrap;flex-direction: row;
 }
 .parrfnos{
@@ -50,4 +50,19 @@ body{
 }
 .subti{
     font-size: 20px; color: #005EFF;text-align: center;
+}
+
+
+/************ responsive ************/
+
+@media(min-width: 1059px){
+    .contparrvid{
+        width: 80%;max-width: 900px;padding: 40px 0;display: flex; justify-content: space-between;margin: 0 auto;
+    }
+    .parrfnos{
+        width: 400px;max-width: 400px; font-size: 15px;text-align: justify;
+    }
+    .contvidio{
+        width: 100%;max-width: 400px;margin: 0;height: 225px;
+    }
 }
