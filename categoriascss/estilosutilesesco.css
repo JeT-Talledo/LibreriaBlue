@@ -66,6 +66,26 @@ body{
 }
 
 /*****caja de productos*******/
+/**** para paginacion***/
+    .cpntpaginacion{
+        display: flex;justify-content: space-between;width: 90%;margin: auto;
+    }
+    .contbloqpag{
+        display: flex;
+    }
+    .pagina{
+        padding: 5px 15px;color: black;cursor: pointer;
+    }
+    .pagsele{
+        background-color: #005EFF;color: #fff;
+    }
+    .pagnosel:hover{
+        background-color: #efe9e9;
+    }
+    .mospalabra{
+        font-size: 15px;padding-top: 5px;
+    }
+
 .contdelosprod{
     width: 100%;padding: 0 0 25px 0;
 }
@@ -240,7 +260,7 @@ body{
         display: none;
     }
     .contfilprod{
-        display: flex;width: 100%;margin: auto;justify-content: space-around;max-width: 1504px;
+        display: flex;width: 100%;margin: 30px auto;justify-content: space-around;max-width: 1504px;
     }
     .contcate{
         width: 310px;padding: 20px 0;
@@ -258,6 +278,27 @@ body{
     .contdelosprod{
         width: 650px;padding: 0 0 25px 0;
     }
+
+    /**** para paginacion***/
+    .cpntpaginacion{
+        display: flex;justify-content: space-between;width: 90%;margin: auto;
+    }
+    .contbloqpag{
+        display: flex;
+    }
+    .pagina{
+        padding: 5px 15px;color: black;cursor: pointer;
+    }
+    .pagsele{
+        background-color: #005EFF;color: #fff;
+    }
+    .pagnosel:hover{
+        background-color: #efe9e9;
+    }
+    .mospalabra{
+        font-size: 15px;padding-top: 15px;
+    }
+
     .contenidorecomen{
        width: 100%;margin: 30px auto;
     }
