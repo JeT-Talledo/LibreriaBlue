@@ -73,132 +73,134 @@
             <div id="filtcatecont">
                 <img src="/img/icons/menufiltro.png" alt="" id="imgfilcate" onclick="mosfilt();">
             </div>
-            <div class="contcate" id="contcate">
-                <div class="contcerr">
-                    <img id="cerfiltro" src="/img/icons/cerrarfiltro.png" alt="#" onclick="cerrfilt();">
-                </div>
-                <div class="filtros">
-                    <h2>Categorías</h2>
-                    <div class="contenedorfiltros">
-                        <div class="catefiltr">
-                            <p class="selectcate">○ Útiles Escolares</p><img class="imgfabj" src="/img/icons/rowabajo.png" alt="#">
-                        </div>
-                        <div class="catefiltr">
-                            <p>○ Manualidades</p><img class="imgfabj" src="/img/icons/rowabajo.png" alt="#">
-                        </div>
-                        <div class="catefiltr">
-                            <p>○ Papelería</p><img class="imgfabj" src="/img/icons/rowabajo.png" alt="#">
-                        </div>
-                        <div class="catefiltr">
-                            <p>○ Arte y Pintura</p><img class="imgfabj" src="/img/icons/rowabajo.png" alt="#">
-                        </div>
-                        <div class="catefiltr">
-                            <p>○ Mochilas y Loncheras</p><img class="imgfabj" src="/img/icons/rowabajo.png" alt="#">
-                        </div>
-                        <div class="catefiltr">
-                            <p>○ Lectura</p><img class="imgfabj" src="/img/icons/rowabajo.png" alt="#">
-                        </div>
-                        <div class="catefiltr">
-                            <p>○ Juguetería</p><img class="imgfabj" src="/img/icons/rowabajo.png" alt="#">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="contdelosprod">
 
-                <div class="contenidorecomen">
-                    <div class="galeryprod" onmouseover="verprod1();" onmouseout="noverprod1();" id="galeryprod">
-                        <div class="verprod" id="verprod1">
-                            <a href="#modalprod1" class="enlaceflexbox">
-                                <div class="contverprod">
-                                    <img src="/img/icons/ver.png" alt="#">
-                                    <p>Ver Producto</p>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="contimgprod">
-                            <img src="/img/recomen/prueba2.jpg" alt="#" class="imgprod">
-                        </div>
-                        <div class="contdescriprod">
-                            <p class="nomcateprod">Papelería</p>
-                            <p class="nomprod">CATÁLOGO A4 FLEX</p>
-                            <p class="preprod">S/ 20.00</p>
-                        </div>
+            <div class="contfilprod">
+                <div class="contcate" id="contcate">
+                    <div class="contcerr">
+                        <img id="cerfiltro" src="/img/icons/cerrarfiltro.png" alt="#" onclick="cerrfilt();">
                     </div>
-                    <div class="modalprod" id="modalprod1">
-                        <div class="modal_container">
-                            <div class="cerrvent">
-                                <a href="#galeryprod"><img class="cerrarprod" src="/img/icons/cerrarprod.png" alt="#"></a>
+                    <div class="filtros">
+                        <h2>Categorías</h2>
+                        <div class="contenedorfiltros">
+                            <div class="catefiltr selectcate">
+                                <p>○ Útiles Escolares</p><img class="imgfabj" src="/img/icons/rowabajo.png" alt="#">
                             </div>
-                            <div class="contprodcart">
-                                <div class="contcerrmodal">
-                                    <img class="small" src="/img/recomen/prueba2.jpg" id="img_01">
-                                </div>
-                                <div class="contdescrimodal">
-                                    <h1>Nombre Producto</h1>
-                                    <p class="percioprod">S/ Precio</p>
-                                    <ul class="contdescri">
-                                        <li>descripción</li>
-                                        <li>
-                                            <p class="negr">• Marca: </p> marca
-                                        </li>
-                                        <li>
-                                            <p class="negr">• Categoría: </p> categoría
-                                        </li>
-                                        <li>
-                                            <p class="negr">• Código: </p> codigo
-                                        </li>
-                                    </ul>
-                                    <div class="stokk">
-                                        <p>Cantidad: </p>
-                                        <div class="numerr">20</div>
-                                    </div>
-                                    <div class="redesocit">
-                                        <a href="">Cotizar Producto</a>
-                                    </div>
-                                </div>
+                            <div class="catefiltr">
+                                <p>○ Manualidades</p><img class="imgfabj" src="/img/icons/rowabajo.png" alt="#">
+                            </div>
+                            <div class="catefiltr">
+                                <p>○ Papelería</p><img class="imgfabj" src="/img/icons/rowabajo.png" alt="#">
+                            </div>
+                            <div class="catefiltr">
+                                <p>○ Arte y Pintura</p><img class="imgfabj" src="/img/icons/rowabajo.png" alt="#">
+                            </div>
+                            <div class="catefiltr">
+                                <p>○ Mochilas y Loncheras</p><img class="imgfabj" src="/img/icons/rowabajo.png" alt="#">
+                            </div>
+                            <div class="catefiltr">
+                                <p>○ Lectura</p><img class="imgfabj" src="/img/icons/rowabajo.png" alt="#">
+                            </div>
+                            <div class="catefiltr">
+                                <p>○ Juguetería</p><img class="imgfabj" src="/img/icons/rowabajo.png" alt="#">
                             </div>
                         </div>
                     </div>
-                    <!--********************************************************************-->
-                    <div class="galeryprod" onmouseover="verprod2();" onmouseout="noverprod2();">
-                        <div class="verprod" id="verprod2">
-                            <a href="" class="enlaceflexbox">
-                                <div class="contverprod">
-                                    <img src="/img/icons/ver.png" alt="#">
-                                    <p>Ver Producto</p>
+                </div>
+                <div class="contdelosprod">
+
+                    <div class="contenidorecomen">
+                        <div class="galeryprod" onmouseover="verprod1();" onmouseout="noverprod1();" id="galeryprod">
+                            <div class="verprod" id="verprod1">
+                                <a href="#modalprod1" class="enlaceflexbox">
+                                    <div class="contverprod">
+                                        <img src="/img/icons/ver.png" alt="#">
+                                        <p>Ver Producto</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="contimgprod">
+                                <img src="/img/recomen/prueba2.jpg" alt="#" class="imgprod">
+                            </div>
+                            <div class="contdescriprod">
+                                <p class="nomcateprod">Papelería</p>
+                                <p class="nomprod">CATÁLOGO A4 FLEX</p>
+                                <p class="preprod">S/ 20.00</p>
+                            </div>
+                        </div>
+                        <div class="modalprod" id="modalprod1">
+                            <div class="modal_container">
+                                <div class="cerrvent">
+                                    <a href="#galeryprod"><img class="cerrarprod" src="/img/icons/cerrarprod.png" alt="#"></a>
                                 </div>
-                            </a>
-                        </div>
-                        <div class="contimgprod">
-                            <img src="/img/recomen/prueba2.jpg" alt="#" class="imgprod">
-                        </div>
-                        <div class="contdescriprod">
-                            <p class="nomcateprod">Papelería</p>
-                            <p class="nomprod">CATÁLOGO A4 FLEX</p>
-                            <p class="preprod">S/ 20.00</p>
-                        </div>
-                    </div>
-                    <div class="galeryprod" onmouseover="verprod3();" onmouseout="noverprod3();">
-                        <div class="verprod" id="verprod3">
-                            <a href="" class="enlaceflexbox">
-                                <div class="contverprod">
-                                    <img src="/img/icons/ver.png" alt="#">
-                                    <p>Ver Producto</p>
+                                <div class="contprodcart">
+                                    <div class="contcerrmodal">
+                                        <img class="small" src="/img/recomen/prueba2.jpg" id="img_01">
+                                    </div>
+                                    <div class="contdescrimodal">
+                                        <h1>Nombre Producto</h1>
+                                        <p class="percioprod">S/ Precio</p>
+                                        <ul class="contdescri">
+                                            <li>descripción</li>
+                                            <li>
+                                                <p class="negr">• Marca: </p> marca
+                                            </li>
+                                            <li>
+                                                <p class="negr">• Categoría: </p> categoría
+                                            </li>
+                                            <li>
+                                                <p class="negr">• Código: </p> codigo
+                                            </li>
+                                        </ul>
+                                        <div class="stokk">
+                                            <p>Cantidad: </p>
+                                            <div class="numerr">20</div>
+                                        </div>
+                                        <div class="redesocit">
+                                            <a href="">Cotizar Producto</a>
+                                        </div>
+                                    </div>
                                 </div>
-                            </a>
+                            </div>
                         </div>
-                        <div class="contimgprod">
-                            <img src="/img/recomen/prueba2.jpg" alt="#" class="imgprod">
+                        <!--********************************************************************-->
+                        <div class="galeryprod" onmouseover="verprod2();" onmouseout="noverprod2();">
+                            <div class="verprod" id="verprod2">
+                                <a href="" class="enlaceflexbox">
+                                    <div class="contverprod">
+                                        <img src="/img/icons/ver.png" alt="#">
+                                        <p>Ver Producto</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="contimgprod">
+                                <img src="/img/recomen/prueba2.jpg" alt="#" class="imgprod">
+                            </div>
+                            <div class="contdescriprod">
+                                <p class="nomcateprod">Papelería</p>
+                                <p class="nomprod">CATÁLOGO A4 FLEX</p>
+                                <p class="preprod">S/ 20.00</p>
+                            </div>
                         </div>
-                        <div class="contdescriprod">
-                            <p class="nomcateprod">Papelería</p>
-                            <p class="nomprod">CATÁLOGO A4 FLEX</p>
-                            <p class="preprod">S/ 20.00</p>
+                        <div class="galeryprod" onmouseover="verprod3();" onmouseout="noverprod3();">
+                            <div class="verprod" id="verprod3">
+                                <a href="" class="enlaceflexbox">
+                                    <div class="contverprod">
+                                        <img src="/img/icons/ver.png" alt="#">
+                                        <p>Ver Producto</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="contimgprod">
+                                <img src="/img/recomen/prueba2.jpg" alt="#" class="imgprod">
+                            </div>
+                            <div class="contdescriprod">
+                                <p class="nomcateprod">Papelería</p>
+                                <p class="nomprod">CATÁLOGO A4 FLEX</p>
+                                <p class="preprod">S/ 20.00</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
 

@@ -25,7 +25,7 @@ body{
 }
 
 .contcate{
-    background-color: #fff;width: 0;padding: 20px 0;max-width: 320px;
+    background-color: #fff;width: 0;padding: 20px 0;max-width: 375px;
     position: fixed;z-index: 19;height: 100%;top: 0;flex-direction: column;
     justify-content: center;align-items: center;display: flex;overflow: hidden;
 }
@@ -53,6 +53,9 @@ body{
 }
 .imgfabj{
     height: 10px;margin-top: 5px;margin-left: 15px;
+}
+.selectcate{
+    color: #005EFF;
 }
 
 #filtcatecont{
@@ -197,4 +200,60 @@ body{
 .redesocit a{
     width: 100%;text-decoration: none;text-align: center;padding: 15px 0;
     color: #fff;
+}
+
+/************** responsive********/
+
+@media(min-width: 1024px){
+    #filtcatecont{
+        display: none;
+    }
+    .contfilprod{
+        display: flex;width: 100%;margin: auto;justify-content: space-around;max-width: 1504px;
+    }
+    .contcate{
+        width: 310px;padding: 20px 0;
+        position: relative;z-index: 1;height: auto;top: 0;display: block;
+    }
+    .contcerr{
+       display: none;
+    }
+    .filtros{
+        border: 1px solid #efe9e9;width: 90%;margin: 20px auto;
+        padding: 20px 0 ;
+    }
+
+    /*****caja de productos*******/
+    .contdelosprod{
+        width: 650px;padding: 0 0 25px 0;
+    }
+    .contenidorecomen{
+       width: 100%;margin: 30px auto;
+    }
+    .galeryprod{
+       display: block;margin: 0 auto 50px auto;width: 200px;position: relative;
+       padding: 20px 0;
+    }
+    .contverprod{
+        width: 150px;
+    }
+    .contimgprod{
+        width: 80%;
+    }
+}
+
+@media(min-width: 1300px){
+    .titucate p{
+        padding: 10px 0 10px 90px;background-color: #efe9e9;
+    }
+    .contdelosprod{
+        width: 950px;
+    }
+    .galeryprod{
+        display: block;margin: 0 auto 50px auto;width: 250px;position: relative;
+        padding: 40px 0;border: 1px solid #aaa9a9;transition: all .8s;
+    }
+    .contimgprod{
+        width: 70%;
+    }
 }
