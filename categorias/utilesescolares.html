@@ -113,16 +113,17 @@
                     <div class="cpntpaginacion">
                         <p class="mospalabra">Mostrando 18 resultados...</p>
                         <div class="contbloqpag">
-                            <div id="pag1" class="pagina pagsele">
+                            <div id="pag1" class="pagina pagsele" onclick="mostrarone();">
                                 1
                             </div>
-                            <div id="pag2" class="pagina pagnosel">
+                            <div id="pag2" class="pagina pagnosel" onclick="mostrardos();">
                                 2
                             </div>
                         </div>
                     </div>
 
-                    <div class="contenidorecomen">
+                    <!-- pagina1-->
+                    <div class="contenidorecomen" id="paginaone">
                         <div class="galeryprod" onmouseover="verprod1();" onmouseout="noverprod1();" id="galeryprod">
                             <div class="verprod" id="verprod1">
                                 <a href="#modalprod1" class="enlaceflexbox">
@@ -137,6 +138,100 @@
                             </div>
                             <div class="contdescriprod">
                                 <p class="nomcateprod">Papelería</p>
+                                <p class="nomprod">CATÁLOGO A4 FLEX</p>
+                                <p class="preprod">S/ 20.00</p>
+                            </div>
+                        </div>
+                        <div class="modalprod" id="modalprod1">
+                            <div class="modal_container">
+                                <div class="cerrvent">
+                                    <a href="#galeryprod"><img class="cerrarprod" src="/img/icons/cerrarprod.png" alt="#"></a>
+                                </div>
+                                <div class="contprodcart">
+                                    <div class="contcerrmodal">
+                                        <img class="small" src="/img/recomen/prueba2.jpg" id="img_01">
+                                    </div>
+                                    <div class="contdescrimodal">
+                                        <h1>Nombre Producto</h1>
+                                        <p class="percioprod">S/ Precio</p>
+                                        <ul class="contdescri">
+                                            <li>descripción</li>
+                                            <li>
+                                                <p class="negr">• Marca: </p> marca
+                                            </li>
+                                            <li>
+                                                <p class="negr">• Categoría: </p> categoría
+                                            </li>
+                                            <li>
+                                                <p class="negr">• Código: </p> codigo
+                                            </li>
+                                        </ul>
+                                        <div class="stokk">
+                                            <p>Cantidad: </p>
+                                            <div class="numerr">20</div>
+                                        </div>
+                                        <div class="redesocit">
+                                            <a href="">Cotizar Producto</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--********************************************************************-->
+                        <div class="galeryprod" onmouseover="verprod2();" onmouseout="noverprod2();">
+                            <div class="verprod" id="verprod2">
+                                <a href="" class="enlaceflexbox">
+                                    <div class="contverprod">
+                                        <img src="/img/icons/ver.png" alt="#">
+                                        <p>Ver Producto</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="contimgprod">
+                                <img src="/img/recomen/prueba2.jpg" alt="#" class="imgprod">
+                            </div>
+                            <div class="contdescriprod">
+                                <p class="nomcateprod">Papelería</p>
+                                <p class="nomprod">CATÁLOGO A4 FLEX</p>
+                                <p class="preprod">S/ 20.00</p>
+                            </div>
+                        </div>
+                        <div class="galeryprod" onmouseover="verprod3();" onmouseout="noverprod3();">
+                            <div class="verprod" id="verprod3">
+                                <a href="" class="enlaceflexbox">
+                                    <div class="contverprod">
+                                        <img src="/img/icons/ver.png" alt="#">
+                                        <p>Ver Producto</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="contimgprod">
+                                <img src="/img/recomen/prueba2.jpg" alt="#" class="imgprod">
+                            </div>
+                            <div class="contdescriprod">
+                                <p class="nomcateprod">Papelería</p>
+                                <p class="nomprod">CATÁLOGO A4 FLEX</p>
+                                <p class="preprod">S/ 20.00</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--pagina2-->
+                    <div class="contenidorecomen" id="paginados">
+                        <div class="galeryprod" onmouseover="verprod1();" onmouseout="noverprod1();" id="galeryprod">
+                            <div class="verprod" id="verprod1">
+                                <a href="#modalprod1" class="enlaceflexbox">
+                                    <div class="contverprod">
+                                        <img src="/img/icons/ver.png" alt="#">
+                                        <p>Ver Producto</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="contimgprod">
+                                <img src="/img/recomen/prueba2.jpg" alt="#" class="imgprod">
+                            </div>
+                            <div class="contdescriprod">
+                                <p class="nomcateprod">Papelería2</p>
                                 <p class="nomprod">CATÁLOGO A4 FLEX</p>
                                 <p class="preprod">S/ 20.00</p>
                             </div>
