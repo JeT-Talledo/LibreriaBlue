@@ -17,6 +17,8 @@
     <link rel="stylesheet" href="css/whats2.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -38,8 +40,14 @@
                     </div>
                     <div class="contbus">
                         <div id="parmosbarrbus">
-                           <img src="img/icons/cerrarfiltro.png" alt="" id="cerrbus" onclick="cerbus();">
+                            <img src="img/icons/cerrarfiltro.png" alt="" id="cerrbus" onclick="cerbus();">
                             <input type="text" id="inputbuscar" placeholder="Buscar Producto...">
+                            <!--palabras de busqueda -->
+                            <ul id="box-search">
+                                <li><a href=""><i class="fas fa-search"></i>Cuaderno</a></li>
+                                <li><a href=""><i class="fas fa-search"></i>Libro</a></li>
+                                <li><a href=""><i class="fas fa-search"></i>Juguete</a></li>
+                            </ul>
                         </div>
                         <img src="img/icons/buscar.png" alt="" class="icobs" onclick="mosbarbus();">
                     </div>
@@ -53,12 +61,16 @@
                             <a class="enlacenav" id="cate" href="#" onmouseover="moscate();">Categorías</a>
                             <div id="contcatenav" class="contcatenav" onmouseover="moscate();">
                                 <a class="enlcate" href="categorias/utilesescolares.html">Útiles Escolares</a>
+                                <a class="enlcate" href="">Útiles de Oficina</a>
                                 <a class="enlcate" href="">Manualidades</a>
-                                <a class="enlcate" href="">Papelería</a>
+                                <a class="enlcate" href="">Papelería en General</a>
                                 <a class="enlcate" href="">Arte y Pintura</a>
                                 <a class="enlcate" href="">Mochilas y Loncheras</a>
                                 <a class="enlcate" href="">Lectura</a>
-                                <a class="enlcate" href="">Jueguetería</a>
+                                <a class="enlcate" href="">Juguetería</a>
+                                <a class="enlcate" href="">Piñatería</a>
+                                <a class="enlcate" href="">Regalos</a>
+                                <a class="enlcate" href="">Accesorios y otros</a>
                             </div>
                         </div>
                         <div class="listnav">
@@ -361,4 +373,6 @@
 <script src="js/codigoindex.js"></script>
 <script src="js/script2.js"></script>
 <script src="js/parabuscar.js"></script>
-<script src="js/carruselbaner.js"></script></html>
+<script src="js/carruselbaner.js"></script>
+
+</html>
