@@ -288,13 +288,13 @@ body{
     .contenidocate{
         width: 80%;
     }
+    .slider {
+        height: 550px;
+    }
 }
 
 @media(min-width:1440px){
     .contenidocate{
         width: 75%;
-    }
-    .slider {
-        height: 600px;
     }
 }
