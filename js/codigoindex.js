@@ -13,7 +13,7 @@ function cerrarnav(){
 
 /******* mostrar las categorias********/
 function moscate(){
-    document.getElementById('contcatenav').style.height = '380px';
+    document.getElementById('contcatenav').style.height = '420px';
     document.getElementById('menunav').style.height = 'auto';
 }
 function quitarcate(){
